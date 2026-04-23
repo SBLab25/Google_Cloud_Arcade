@@ -1,0 +1,6 @@
+git clone https://github.com/rosera/pet-theory.git
+cd ~/pet-theory/lab02
+npm i && npm audit fix --force
+gcloud config set compute/region us-central1
+gcloud app create --region=us-central
+gcloud firestore databases create --region=us-central
